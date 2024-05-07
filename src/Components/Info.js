@@ -30,12 +30,13 @@ function Info() {
 
 
 
-        
+         <Link to="/Career" className="link-unstyled" style={{ textDecoration: 'none' }}>
         <InformationCard
           title="AI-Powered Roadmap"
           description="Get personalized career roadmaps and recommendations based on AI analysis of your skills, interests, and goals."
           icon={faMapLocationDot}
         />
+        </Link>
 
         <Link to="https://vaishakh3.github.io/jobsearch/" style={{ textDecoration: 'none' }}>
         <InformationCard

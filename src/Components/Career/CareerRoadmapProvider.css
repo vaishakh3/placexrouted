@@ -1,0 +1,42 @@
+.career-roadmap-container {
+    background-color: #282c37;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 6000px;
+    margin: 0 auto;
+  }
+  
+  .career-roadmap-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .response-text {
+    margin-bottom: 20px;
+  }
+  
+  .user-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .send-button {
+    background-color: #1fbad6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #16a4ba;
+  }
+  

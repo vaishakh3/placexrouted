@@ -8,6 +8,8 @@ import Appointment from "./Pages/Appointment";
 import Quiz from "./Quiz/quiz";
 import Faq from "./Faq/Faq";
 import Mentor from "./mentor/mentor";
+import CareerRoadmapProvider from "./Components/Career/CareerRoadmapProvider";
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Route path="/Faq" element={<Faq />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/Mentor" element={<Mentor />} />
+          <Route path="/Career" element={<CareerRoadmapProvider />} />
         </Routes>
       </Router>
     </div>
