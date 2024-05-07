@@ -1,0 +1,212 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+  overflow-x: hidden;
+
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  justify-content: center; 
+  position:relative;/* Do not repeat the image */
+}
+
+.Apps {
+  text-align: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.head{
+  margin-bottom: 100px;
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 75px;
+  color: #0056b3;
+  text-align: left;
+  margin-left: 100px;
+
+}
+
+.question-card {
+  margin: 0 auto;
+  width: 75%;
+  float: left;
+  height: auto;
+  background-color: #f4f4f7;
+  padding: 10px;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(66, 66, 68, 0.25) 0px 30px 60px -12px,
+    rgba(161, 161, 161, 0.3) 0px 18px 36px -18px;
+}
+
+.review-card {
+  background-color: #000000;
+  padding: 6px;
+  width: 25%;
+  float: left;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin: 0 auto;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .review-card {
+    width: 50%;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+list {
+  margin-top: 8px;
+  background-color: #000000;
+  padding: 16px;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+list:hover {
+  background-color: #000000;
+}
+
+.question-text {
+  color: #000000;
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(40, 91, 201);
+  /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.final-results {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 64px;
+  background-color: #d1d1d1;
+  padding: 16px;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(90, 90, 90, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin-left: 200px;
+}
+
+.ms-md-4 {
+  margin-left: 63.5rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .ms-md-4 {
+    margin-left: 6.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .ms-md-4 {
+    margin-left: 30.5rem !important;
+  }
+}
+
+/* Navbar */
+
+.button-sections {
+  text-align: center;
+  margin-left: 10px; /* Updated */
+}
+
+.ms-md-4 {
+  margin-left: 15px !important; /* Updated */
+}
+/* quiz.css */
+
+/* Add colors to buttons */
+.btn-info {
+  background-color: #007bff; /* Blue */
+  border-color: #007bff; /* Blue */
+}
+
+.btn-info:hover {
+  background-color: #0056b3; /* Darker Blue */
+  border-color: #0056b3; /* Darker Blue */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green */
+  border-color: #28a745; /* Green */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker Green */
+  border-color: #218838; /* Darker Green */
+}
+/* quiz.css */
+
+/* Right side container */
+.bg-gray-200 {
+  height: 100%; /* Ensure the container covers the entire height */
+  width: 50%; /* Ensure the container covers the entire width minus the margin */
+  padding: 1rem; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in the total width */
+  min-height: 100vh; 
+}
+/* quiz.css */
+
+/* Add colors to option buttons */
+.list li {
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #f8f9fa; /* Light gray */
+  border: 1px solid #dee2e6; /* Gray */
+}
+
+.list li:hover {
+  background-color: #e2e6ea; /* Lighter gray */
+}
+/* quiz.css */
+
+.topic-list {
+  padding: 20px; /* Add padding between topics */
+  text-align: left; 
+  font-size: 100px;/* Align topics to the left */
+}
+
+.topic-list li {
+  margin-bottom: 10px; /* Add margin between each topic */
+  cursor: pointer; /* Add pointer cursor for hover effect */
+  font-weight: 500;
+  font-size: 20px; /* Add font weight */
+}
+
+.topic-list li:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.topic-list li::marker {
+  content: "•"; /* Add bullet point */
+  margin-right: 8px; /* Add space between bullet point and text */
+}
+/* quiz.css */
+
+.topics-heading {
+  font-size: 1.5rem;
+  color: #28a745; /* Increase font size for the word "Topics" */
+}

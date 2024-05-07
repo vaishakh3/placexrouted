@@ -1,0 +1,50 @@
+body {
+    background-color:white;
+    color: rgb(3, 3, 92);
+    padding: 20px;
+  }
+  
+  .head {
+    text-align: left;
+    color: #1c1c84;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 40px;
+    justify-content: center;
+    
+  }
+  
+  .containerj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .person-card {
+    border: 2px solid rgb(252, 252, 253);
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .person-card:hover {
+    transform: scale(1.09);
+  }
+  
+  .person-card img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .appointment-form {
+    margin-top: 20px;
+  }
+  
+  .appointment-form h3 {
+    text-align: left;
+  }
+  
